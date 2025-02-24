@@ -1,0 +1,29 @@
+{
+    "project_name": "AI ML Project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_description": "A machine learning project with standardized structure",
+    "author_name": "Your Name",
+    "author_email": "your.email@company.com",
+    "jira_ticket": "PROJ-123",
+    
+    "project_type": [
+        "machine_learning",
+        "nlp",
+        "genai",
+        "computer_vision",
+        "data_analysis"
+    ],
+    
+    "include_notebooks": true,
+    "include_tests": true,
+    "include_docs": true,
+    
+    "python_version": "3.10",
+    
+    "open_source": false,
+    "license": [
+        "MIT",
+        "Apache-2.0",
+        "Proprietary"
+    ]
+}

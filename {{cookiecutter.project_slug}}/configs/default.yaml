@@ -1,0 +1,14 @@
+# Default configuration
+project:
+  name: {{ cookiecutter.project_name }}
+
+data:
+  input_path: data/raw/
+  output_path: data/processed/
+
+model:
+  type: classifier
+  parameters:
+    learning_rate: 0.001
+    batch_size: 32
+    epochs: 100
