@@ -14,7 +14,7 @@
         "data_analysis"
     ],
     
-    "include_notebooks": ["true", "false"],
+    "include_notebooks": true,
     "include_tests": true,
     "include_docs": true,
     
